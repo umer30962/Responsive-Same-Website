@@ -201,6 +201,7 @@
         color: white;
         margin-bottom: 3.3rem;
          padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .hero_content button {
@@ -213,6 +214,7 @@
         cursor: pointer;
         font-size: 0.9rem;
       margin-left: 0.4rem;
+      
 
     }
 
