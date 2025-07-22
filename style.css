@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+/* navbar section open */
+
+.navbar{
+    width: 100%;
+    height: 4.5rem;
+    background-color: hsl(240, 77%, 19%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo  img{
+    width: 11.5rem;
+    height: 4.3rem;
+    margin-left: 2.3rem;
+    cursor: pointer;
+}
+
+.nav_list ul{
+   display: flex;
+   list-style: none;
+    margin-right: 3.5rem;
+    gap: 2.9rem;
+   
+}
+.nav_list ul li a{
+   text-decoration: none;
+   color: white;
+   cursor: pointer;
+   font-size: 0.9rem;
+   font-weight: 600;
+   
+}
+
+#menu_icon{
+    color: white;
+      font-size: 1.1rem;
+   font-weight: 600;
+    margin-right: 2.3rem;
+    cursor: pointer;
+    display: none;
+}
+
+/* responsive navbar open */
+
+@media screen and (max-width:450px) {
+
+    .navbar{
+    width: 100%;
+    height: 4rem;
+    background-color: hsl(240, 95%, 15%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo img{
+    width: 9.2rem;
+    height: 3.3rem;
+    margin-left: 1.2rem;
+}
+
+
+    .nav_list ul li a{
+        display: none;
+    }
+
+    #menu_icon{
+        display: block;
+        margin-right: 1.2rem;
+        cursor: pointer;
+    }
+}
+
+/* responsive navbar close */
+
+/* navbar section close */
+/* ...................................................... */
+
+/* hero section open */
+
+/* hero section img open */
+.hero_section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.hero_section img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(1px) brightness(0.7);
+}
+
+/* hero section  img close */
+
+/* responsive hero img open */
+
+@media screen and (max-width:450px) {
+
+
+    .hero_section{
+    width: 100%;
+    height: 92vh;
+    position: relative;
+    overflow: hidden;
+
+}
+
+    .hero_section img{
+        width: 100vh;
+        height: 100%;
+        object-fit: cover;
+        filter: blur(1px) brightness(0.7);
+        
+    }
+    
+}
+
+/* responsive hero img close */
+
+
+/* hero section content open */
+
+
+.hero_content {
+    position: absolute;
+    width: 30rem;
+    height: auto;
+    top: 16rem;
+    margin-left: 7.3rem;
+}  
+
+.hero_content h1{
+
+font-size: 3.2rem;
+color: white;
+margin-right: 1rem;
+margin-bottom: 2rem;
+}
+
+.hero_content p{
+    font-size: 1.14rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.hero_content button{
+    width: 8rem;
+    height: 2.5rem;
+    background-color: hsl(240, 95%, 15%);
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* hero section content close */
+
+/* responsive hero content open */
+
