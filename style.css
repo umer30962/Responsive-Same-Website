@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     width: 100%;
     height: 100%;
 }
 
 /* navbar section open */
 
-.navbar{
+.navbar {
     width: 100%;
     height: 4.5rem;
     background-color: hsl(240, 77%, 19%);
@@ -20,33 +20,35 @@
     align-items: center;
 
 }
-.logo  img{
+
+.logo img {
     width: 11.5rem;
     height: 4.3rem;
     margin-left: 2.3rem;
     cursor: pointer;
 }
 
-.nav_list ul{
-   display: flex;
-   list-style: none;
+.nav_list ul {
+    display: flex;
+    list-style: none;
     margin-right: 3.5rem;
     gap: 2.9rem;
-   
-}
-.nav_list ul li a{
-   text-decoration: none;
-   color: white;
-   cursor: pointer;
-   font-size: 0.9rem;
-   font-weight: 600;
-   
+
 }
 
-#menu_icon{
+.nav_list ul li a {
+    text-decoration: none;
     color: white;
-      font-size: 1.1rem;
-   font-weight: 600;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+
+}
+
+#menu_icon {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
     margin-right: 2.3rem;
     cursor: pointer;
     display: none;
@@ -56,28 +58,28 @@
 
 @media screen and (max-width:450px) {
 
-    .navbar{
-    width: 100%;
-    height: 4rem;
-    background-color: hsl(240, 95%, 15%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    .navbar {
+        width: 100%;
+        height: 4rem;
+        background-color: hsl(240, 95%, 15%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-}
+    }
 
-.logo img{
-    width: 9.2rem;
-    height: 3.3rem;
-    margin-left: 1.2rem;
-}
+    .logo img {
+        width: 9.2rem;
+        height: 3.3rem;
+        margin-left: 1.2rem;
+    }
 
 
-    .nav_list ul li a{
+    .nav_list ul li a {
         display: none;
     }
 
-    #menu_icon{
+    #menu_icon {
         display: block;
         margin-right: 1.2rem;
         cursor: pointer;
@@ -92,14 +94,14 @@
 /* hero section open */
 
 /* hero section img open */
-.hero_section{
+.hero_section {
     width: 100%;
     height: 100vh;
     position: relative;
 
 }
 
-.hero_section img{
+.hero_section img {
 
     width: 100%;
     height: 100%;
@@ -114,22 +116,22 @@
 @media screen and (max-width:450px) {
 
 
-    .hero_section{
-    width: 100%;
-    height: 92vh;
-    position: relative;
-    overflow: hidden;
+    .hero_section {
+        width: 100%;
+        height: 92vh;
+        position: relative;
+        overflow: hidden;
 
-}
+    }
 
-    .hero_section img{
+    .hero_section img {
         width: 100vh;
         height: 100%;
         object-fit: cover;
         filter: blur(1px) brightness(0.7);
-        
+
     }
-    
+
 }
 
 /* responsive hero img close */
@@ -144,23 +146,23 @@
     height: auto;
     top: 16rem;
     margin-left: 7.3rem;
-}  
-
-.hero_content h1{
-
-font-size: 3.2rem;
-color: white;
-margin-right: 1rem;
-margin-bottom: 2rem;
 }
 
-.hero_content p{
-    font-size: 1.14rem;
+.hero_content h1 {
+
+    font-size: 3.2rem;
     color: white;
+    margin-right: 1rem;
     margin-bottom: 2rem;
 }
 
-.hero_content button{
+.hero_content p {
+    font-size: 1.14rem;
+    color: white;
+    margin-bottom: 1.4rem;
+}
+
+.hero_content button {
     width: 8rem;
     height: 2.5rem;
     background-color: hsl(240, 95%, 15%);
@@ -175,3 +177,46 @@ margin-bottom: 2rem;
 
 /* responsive hero content open */
 
+@media screen and (max-width:450px) {
+
+    .hero_content {
+        position: absolute;
+        width: 20rem;
+        height: auto;
+        top: 15rem;
+        margin-left: 2rem;
+    }
+
+    .hero_content h1 {
+
+        font-size: 2rem;
+        color: white;
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 5rem;
+    }
+
+    .hero_content p {
+        font-size: 0.85rem;
+        color: white;
+        margin-bottom: 3.3rem;
+         padding-left: 1rem;
+    }
+
+    .hero_content button {
+        width: 20rem;
+        height: 2rem;
+        background-color: hsl(240, 95%, 15%);
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        font-size: 0.9rem;
+      margin-left: 0.4rem;
+
+    }
+
+/* responsive hero content close */
+
+
+}
