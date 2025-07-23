@@ -328,6 +328,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 20rem;
+    margin-bottom: 20rem;
 
 }
 
@@ -551,7 +552,250 @@
 /* responsive about section open */
 
 
+  @media screen and (max-width:450px) {
+    
+.about-section {
+    width: 29rem;
+    position: relative;
+    height: auto;
+    margin-top: 78rem;
 
+}
+.about-content {
+    width: 15rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+.about-content h3 {
+    width: 15rem;
+    color: hsl(240, 100%, 12%);
+    align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+    margin-bottom: 1.7rem;
+
+}
+
+.about-content h2 {
+
+    width: 15rem;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1.7rem;
+
+
+}
+
+.about-content p {
+
+    width: 15rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: grey;
+    margin-bottom: 1.1rem;
+
+}
+
+.mini-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.icon-1 {
+    width: 15rem;
+    display: flex;
+   
+
+
+}
+
+.icon-1 i {
+    border: 1px solid black;
+    font-size: 1.3rem;
+    padding: 0.9rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #0b0033;
+    color: white;
+    border-bottom-right-radius: 0.8rem;
+    border-top-left-radius: 0.8rem;
+    margin-top: 1rem;
+
+}
+
+.icon-1 h2 {
+    width: 9rem;
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+.icon-1 p {
+
+    width: 9rem;
+    font-size: 1rem;
+    
+   
+ 
+}
+
+.icon-2 {
+    width: 10rem;
+    display: flex;
+    align-items: center;
+  
+
+}
+
+
+.icon-2 i {
+    border: 1px solid black;
+    font-size: 1.3rem;
+    padding: 0.9rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    background-color: #0b0033;
+    color: white;
+    border-bottom-right-radius: 0.8rem;
+    border-top-left-radius: 0.8rem;
+    margin-top: 1rem;
+}
+
+.icon-2 h2 {
+    width: 9rem;
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+.icon-2 p {
+       width: 9rem;
+    font-size: 1rem;
+    
+}
+
+
+.about-design {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    transform: scale(0.5);
+   
+   
+
+
+}
+
+.filled-hexagon {
+    position: absolute;
+}
+
+.mini-hexa-1,
+.mini-hexa-2,
+.mini-hexa-3 {
+    width: 3.125rem;     /* 50px */
+    height: 3.125rem;    /* 50px */
+    background-color: #0b0033;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+
+.mini-hexa-1 {
+    margin-left: 37.5rem;   /* 600px */
+    margin-top: 16.875rem;  /* 270px */
+    position: absolute;
+    transform: scale(1.5);
+}
+
+.mini-hexa-2 {
+    margin-left: 41.25rem;  /* 660px */
+    margin-top: 19.0625rem; /* 305px */
+    position: absolute;
+    transform: scale(1.5);
+}
+
+.mini-hexa-3 {
+    margin-left: 41.25rem;  /* 660px */
+    margin-top: 14.6875rem; /* 235px */
+    position: absolute;
+    transform: scale(1.5);
+}
+
+.main-hexagon {
+    width: 14.375rem;         /* 230px */
+    height: 13.125rem;        /* 210px */
+    background-image: url(/images/hexa-1.png);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    position: absolute;
+    margin-left: 41.875rem;   /* 670px */
+    margin-top: 3.75rem;      /* 60px */
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.875rem;         /* 30px */
+    color: #0b0033;
+    border-radius: 50%;
+    padding-top: 0.5rem;         /* 8px */
+    padding-bottom: 0.3125rem;   /* 5px */
+    padding-left: 1.0625rem;     /* 17px */
+    padding-right: 0.8125rem;    /* 13px */
+    background-color: rgb(226, 221, 221);
+    cursor: pointer;
+}
+
+.filled-hexagon-after {
+    position: absolute;
+}
+
+.mini2-hexa-1,
+.mini2-hexa-2,
+.mini2-hexa-3 {
+    width: 3.125rem;     /* 50px */
+    height: 3.125rem;    /* 50px */
+    background-color: #0b0033;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+
+.mini2-hexa-1 {
+    margin-left: 53.9375rem;  /* 863px */
+    margin-top: 2.8125rem;    /* 45px */
+    position: absolute;
+    transform: scale(1.5);
+}
+
+.mini2-hexa-2 {
+    margin-left: 57.6875rem;  /* 923px */
+    margin-top: 5.0625rem;    /* 81px */
+    position: absolute;
+    transform: scale(1.5);
+}
+
+.mini2-hexa-3 {
+    margin-left: 57.6875rem;  /* 923px */
+    margin-top: 0.625rem;     /* 10px */
+    position: absolute;
+    transform: scale(1.5);
+}
+
+
+
+  }
 
 
 /* about section close */
