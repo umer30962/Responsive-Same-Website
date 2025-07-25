@@ -182,7 +182,7 @@
 @media screen and (max-width:450px) {
 
     .hero_content {
-        position: absolute;
+        /* position: absolute; */
         width: 20rem;
         height: auto;
         top: 15rem;
@@ -304,7 +304,7 @@
 
 
     .card_section {
-        position: absolute;
+        /* position: absolute; */
         top: 43rem;
 
     }
@@ -328,7 +328,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 20rem;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
 
 }
 
@@ -860,7 +860,7 @@
 
 .service-section {
     width: 100%;
-    padding-top: 3rem;
+    padding-top: 1rem;
     position: relative;
     background-color: rgb(226, 226, 226);
     height: 30rem;
@@ -2364,7 +2364,7 @@
     padding-top: 2.125rem; /* 50px */
     /* padding-left: 3.125rem; 
     padding-right: 3.125rem;  */
-    padding-bottom: 4.375rem; 
+    padding-bottom: 2.375rem; 
     background-color: white;
     border-radius: 0.1875rem; /* 3px */
     box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5); /* 4px */
@@ -2391,6 +2391,8 @@
 }
 
 .newsletter-content h2 {
+   
+    width: 100%;
     color: black;
     font-size: 1.8rem; 
     margin-bottom: 2rem;
@@ -2407,25 +2409,28 @@
 
 .newsletter-design {
     margin-top: 1.25rem; /* 20px */
-    width: 50%;
+    width: 100%;
     margin-left: 2.125rem; /* 50px */
     display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem; /* 10px */
 }
 
 .newsletter-design input {
     color: rgb(0, 0, 0);
     padding-right: 0;
-    width: 15.625rem; /* 250px */
+    width: 19.625rem; /* 250px */
     height: 1.875rem; /* 30px */
     padding-top: 0.3125rem; /* 5px */
     padding-left: 0.625rem; /* 10px */
     padding-bottom: 0.3125rem; /* 5px */
     border: 1px solid rgba(173, 173, 173, 0.5);
-    border-right: none;
+   margin-left: -3.9rem;
+   
 }
 
 .newsletter-design button {
-    width: 3.125rem; /* 50px */
+    width: 32.125rem; /* 50px */
     height: 1.875rem; /* 30px */
     background-color: #0b0033;
     color: white;
@@ -2433,9 +2438,9 @@
     cursor: pointer;
     font-size: 0.75rem; /* 12px */
     font-weight: bold;
-    border-top-right-radius: 0.3125rem; /* 5px */
-    border-bottom-right-radius: 0.3125rem; /* 5px */
-    left: 0%;
+   border-radius: 0.6rem;
+   margin-left: -3.7rem;
+   padding-right: 0.4rem;
 }
 
 
