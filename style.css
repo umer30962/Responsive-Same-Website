@@ -2261,3 +2261,356 @@
 
 
 /* team section close */
+
+
+/* newsletter section open */
+
+.newsletter {
+    position: absolute;
+    border: 1px solid black;
+    width: 60%;
+    height: 10rem; /* 160px */
+    margin-left: 16.875rem; /* 270px */
+    margin-top: 34.375rem; /* 550px */
+    padding-top: 3.125rem; /* 50px */
+    padding-left: 3.125rem; /* 50px */
+    padding-right: 3.125rem; /* 50px */
+    padding-bottom: 4.375rem; /* 70px */
+    background-color: white;
+    border-radius: 0.1875rem; /* 3px */
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5); /* 4px */
+    border: none;
+}
+
+.newsletter {
+    display: flex;
+}
+
+.newsletter-content {
+    display: flex;
+    width: 50%;
+}
+
+.newsletter-content i {
+    font-size: 2.1875rem; /* 35px */
+    color: #0b0033;
+    margin-right: 1.25rem; /* 20px */
+    margin-top: 0.9375rem; /* 15px */
+}
+
+.newsletter-content h2 {
+    color: black;
+    font-size: 1.25rem; /* 20px */
+}
+
+.newsletter-content p {
+    width: 18.75rem; /* 300px */
+    color: grey;
+    font-size: 0.875rem; /* 14px */
+    margin-top: 0.625rem; /* 10px */
+    line-height: 1.5;
+}
+
+.newsletter-design {
+    margin-top: 1.25rem; /* 20px */
+    width: 50%;
+    margin-left: 3.125rem; /* 50px */
+    display: flex;
+}
+
+.newsletter-design input {
+    color: rgb(0, 0, 0);
+    padding-right: 0;
+    width: 15.625rem; /* 250px */
+    height: 1.875rem; /* 30px */
+    padding-top: 0.3125rem; /* 5px */
+    padding-left: 0.625rem; /* 10px */
+    padding-bottom: 0.3125rem; /* 5px */
+    border: 1px solid rgba(173, 173, 173, 0.5);
+    border-right: none;
+}
+
+.newsletter-design button {
+    width: 3.125rem; /* 50px */
+    height: 1.875rem; /* 30px */
+    background-color: #0b0033;
+    color: white;
+    border: 1px solid rgba(173, 173, 173, 0.5);
+    cursor: pointer;
+    font-size: 0.75rem; /* 12px */
+    font-weight: bold;
+    border-top-right-radius: 0.3125rem; /* 5px */
+    border-bottom-right-radius: 0.3125rem; /* 5px */
+    left: 0%;
+}
+
+/* responsive newsletter open */
+
+
+
+
+@media screen and (max-width:450px){
+
+    
+.newsletter {
+    position: absolute;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 90%;
+    height: auto;  
+
+    margin-left: 1.25rem;
+    margin-top:76.375rem; /* 550px */
+    padding-top: 2.125rem; /* 50px */
+    /* padding-left: 3.125rem; 
+    padding-right: 3.125rem;  */
+    padding-bottom: 4.375rem; 
+    background-color: white;
+    border-radius: 0.1875rem; /* 3px */
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5); /* 4px */
+    border: none;
+}
+
+
+.newsletter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter-content {
+    display: flex;
+    width: 100%;
+}
+
+
+.newsletter-content i {
+    font-size: 1.3875rem; /* 35px */
+    color: #0b0033;
+    margin-right: 3.25rem; /* 20px */
+    margin-top: 5.9375rem; /* 15px */
+}
+
+.newsletter-content h2 {
+    color: black;
+    font-size: 1.8rem; 
+    margin-bottom: 2rem;
+   
+}
+
+.newsletter-content p {
+    width: 100%;
+    color: grey;
+    font-size: 0.995rem; /* 14px */
+    margin-top: 0.625rem; /* 10px */
+    line-height: 1.5;
+}
+
+.newsletter-design {
+    margin-top: 1.25rem; /* 20px */
+    width: 50%;
+    margin-left: 2.125rem; /* 50px */
+    display: flex;
+}
+
+.newsletter-design input {
+    color: rgb(0, 0, 0);
+    padding-right: 0;
+    width: 15.625rem; /* 250px */
+    height: 1.875rem; /* 30px */
+    padding-top: 0.3125rem; /* 5px */
+    padding-left: 0.625rem; /* 10px */
+    padding-bottom: 0.3125rem; /* 5px */
+    border: 1px solid rgba(173, 173, 173, 0.5);
+    border-right: none;
+}
+
+.newsletter-design button {
+    width: 3.125rem; /* 50px */
+    height: 1.875rem; /* 30px */
+    background-color: #0b0033;
+    color: white;
+    border: 1px solid rgba(173, 173, 173, 0.5);
+    cursor: pointer;
+    font-size: 0.75rem; /* 12px */
+    font-weight: bold;
+    border-top-right-radius: 0.3125rem; /* 5px */
+    border-bottom-right-radius: 0.3125rem; /* 5px */
+    left: 0%;
+}
+
+
+
+
+
+}
+
+/* responsive newsletter close */
+/* newsletter section close */
+
+/* footer section open */
+
+
+
+
+.footer {
+    width: 100%;
+    height: 31.25rem; /* 500px */
+    background-color: rgb(223, 223, 223);
+    margin-top: 37.5rem; /* 600px */
+}
+
+.footer-content {
+    display: flex;
+    padding-top: 10.625rem; /* 170px */
+    padding-left: 6.25rem; /* 100px */
+    font-size: 0.9375rem; /* 15px */
+    justify-content: space-between;
+    padding-right: 6.25rem; /* 100px */
+}
+
+.foot-1,
+.foot-2,
+.foot-3,
+.foot-4,
+.foot-5,
+.foot-6 {
+    width: 30%;
+    color: black;
+}
+
+.foot-1 h4,
+.foot-2 h4,
+.foot-3 h4,
+.foot-4 h4,
+.foot-5 h4,
+.foot-6 h4 {
+    margin-bottom: 0.625rem; /* 10px */
+}
+
+.foot-1 ul,
+.foot-2 ul,
+.foot-3 ul,
+.foot-4 ul,
+.foot-5 ul {
+    list-style: none;
+}
+
+.foot-1 ul li,
+.foot-2 ul li,
+.foot-3 ul li,
+.foot-4 ul li,
+.foot-5 ul li,
+.foot-6 ul li {
+    padding: 0.125rem; /* 2px */
+    line-height: 1.5;
+}
+
+.foot-1 ul li a,
+.foot-2 ul li a,
+.foot-3 ul li a,
+.foot-4 ul li a,
+.foot-5 ul li a,
+.foot-6 ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.foot-6 ul {
+    list-style: none;
+    display: flex;
+    font-size: 2.5rem; /* 40px */
+    gap: 1.25rem; /* 20px */
+}
+
+.foot-6 img {
+    padding-top: 1.875rem; /* 30px */
+    cursor: pointer;
+}
+
+
+/* responsive footer open */
+
+
+
+@media screen and (max-width:450px) {
+
+
+    .footer {
+    width: 100%;
+    height: auto; /* 500px */
+    background-color: rgb(223, 223, 223);
+    margin-top: 85.5rem; /* 600px */
+    padding-top: 5.625rem; /* 170px */
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10.625rem; /* 170px */
+    padding-left: 2.25rem; /* 100px */
+    font-size: 0.9375rem; /* 15px */
+    justify-content: space-between;
+    padding-right: 2.25rem; /* 100px */
+}
+
+.foot-5{
+    margin-right: 7rem;
+}
+
+.foot-6{
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    margin-right: 10rem;
+}
+
+.foot-6 ul {
+    list-style: none;
+    display: flex;
+    font-size: 1.5rem; /* 40px */
+    gap: 1.25rem; /* 20px */
+    margin-bottom: -1rem;
+}
+
+.foot-6 img {
+    width: 100%;
+    padding-top: 0.975rem; 
+    cursor: pointer;
+}
+
+    
+}
+
+/* responsive footer close */
+
+/* footer section close */
+
+
+/* ...................................................... */
+
+/* sub-footer section open */
+.sub-footer {
+    font-size: 1.2rem;
+    color: grey;
+    text-align: center;
+    bottom: 0%;
+    padding-top: 5.25rem; /* 100px */
+}
+
+/* responsive sub-footer open */
+
+@media screen and (max-width:450px) {
+
+    .sub-footer {
+         font-size: 0.9rem;
+        color: grey;
+        text-align: center;
+        bottom: 0%;
+        padding-top: 3.125rem; /* 100px */
+    }
+
+}
+
+/* responsive sub-footer close */
+
+/* sub-footer section close */
