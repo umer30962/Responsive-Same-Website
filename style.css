@@ -185,7 +185,7 @@
         /* position: absolute; */
         width: 65%;
         height: auto;
-        top: 10rem;
+        top: 7rem;
         margin-left: 2rem;
     }
 
@@ -580,7 +580,6 @@
 @media screen and (max-width:480px) {
 
     .about-section {
-        background-color: lightblue;
         width: 100%;
         position: relative;
         margin-top: 85rem;
@@ -589,7 +588,7 @@
     }
 
     .about-content {
-        background-color: yellow;
+      
         width: 60%;
         margin-left: 7rem;
         margin-top: 2rem;
